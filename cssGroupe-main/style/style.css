@@ -1,0 +1,112 @@
+
+
+section div{
+  position: absolute;
+ 
+}
+
+  section #triangle-left{ 
+    border-top: 20px solid transparent;
+    border-right: 40px solid blue;
+    border-bottom: 60px solid transparent;
+    width: 0;
+    height: 0;
+    transform: translate(155px,500px) rotate(75deg);
+
+  }
+  section #triangle-bottomleft { 
+    border-right: 160px solid rgb(126, 126, 235);
+    border-bottom: 160px solid transparent;
+    width: 50;
+    height: 0;
+    transform: translate(200px,450px) rotate(220deg);
+  }
+
+  section #triangle-up{ 
+    border-right: 182px solid transparent;
+    border-bottom: 130px solid aqua;
+    border-left:20px solid transparent;
+    width: 0;
+    height: 0;
+    transform: translate(183px,469px) rotate(229deg);
+
+  }
+  section #triangle-down{ 
+    border-right: 88px solid transparent;
+    border-top: 40px solid aqua;
+    border-left: 50px solid transparent;
+    width: 0;
+    height: 0;
+    transform: translate(286px,597px) rotate(325deg);
+
+  }
+ 
+section #trapezoid1{
+  border-bottom: 140px solid aqua;
+  border-right: 150px solid transparent;
+  border-left: 0px solid transparent;
+  width: 150px;
+  height: 10;
+  transform: translate(278px, 400px) rotate(49deg);
+} 
+
+section #triangle-right{ 
+  border-top: 50px solid transparent;
+  border-left: 200px solid aqua;
+  border-bottom: 50px solid transparent;
+  width: 0;
+  height: 0;
+  transform: translate(390px,484px) rotate(258deg);
+
+}
+section #trapezoid2{
+  border-bottom: 110px solid blue;
+  border-right: 0px solid transparent;
+  border-left: 50px solid transparent;
+  width: 100px;
+  height: 0;
+  transform: translate(310px, 355px)rotate(228deg);
+} 
+section #trapezoid3{
+  border-bottom: 80px solid rgb(130, 130, 218);
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  width: 60px;
+  height: 0;
+  transform: translate(405px, 345px)rotate(235deg);
+} 
+
+  section #triangle-down1{ 
+    border-right: 5px solid transparent;
+    border-top: 100px solid rgb(130, 130, 218);
+    border-left: 40px solid transparent;
+    width: 0;
+    height: 0;
+    transform: translate(412px,286px) rotate(20deg);
+  } 
+  section #triangle-down2{ 
+    border-right: 45px solid transparent;
+    border-top: 100px solid rgb(130, 130, 218);
+    border-left: 25px solid transparent;
+    width: 0;
+    height: 0;
+    transform: translate(391px,294px) rotate(330deg);
+    z-index: 0;
+  } 
+   section #trapezoid4{
+    border-bottom: 30px solid rgb(130, 130, 218);
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    width: 110px;
+    height: 0;
+      transform: translate(515px, 345px) rotate(300deg);
+    }
+    section #trapezoid5{
+      border-bottom: 20px solid rgb(130, 130, 218);
+      border-right: 5px solid transparent;
+      border-left: 25px solid transparent;
+      width: 35px;
+      height: 5px;
+      transform: translate(615px, 324px) rotate(-140deg);
+
+    }
